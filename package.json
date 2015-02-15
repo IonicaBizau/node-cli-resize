@@ -1,18 +1,26 @@
 {
-  "name": "cli-handlers",
+  "name": "cli-resize",
   "version": "1.0.0",
-  "description": "A set of handlers for the command line.",
+  "description": "Listen for the resize event in a friendly way.",
   "main": "lib/index.js",
   "directories": {
     "test": "test"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test"
   },
   "author": "Ionică Bizău <bizauionica@gmail.com>",
   "license": "MIT",
   "keywords": [
     "cli",
     "handlers"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:IonicaBizau/node-cli-resize.git"
+  },
+  "bugs": {
+    "url": "https://github.com/IonicaBizau/node-cli-resize/issues"
+  },
+  "homepage": "https://github.com/IonicaBizau/node-cli-resize"
 }
