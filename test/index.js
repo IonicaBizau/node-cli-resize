@@ -5,6 +5,7 @@ var CliResize = require("../lib");
 var inst = new CliResize(function (err, size) {
     console.log(size);
 });
+console.log("Resize the terminal.");
 
 // Deattach the listener
 setTimeout(function() {
