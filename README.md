@@ -1,4 +1,4 @@
-# cli-resize
+# CLI Resize
 Listen for the resize event in a friendly way.
 
 ## Installation
