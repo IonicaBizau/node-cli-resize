@@ -17,6 +17,7 @@ var CliResize = require("cli-resize");
 var inst = new CliResize(function (err, size) {
     console.log(size);
 });
+console.log("Resize the terminal.");
 
 // Deattach the listener
 setTimeout(function() {
@@ -26,7 +27,7 @@ setTimeout(function() {
 
 // A hack to keep the process opened for 10sec
 setTimeout(function() {
-    console.log(">> Done.");
+    console.log("Test ended.");
 }, 10000);
 ```
 
