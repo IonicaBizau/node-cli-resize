@@ -1,7 +1,7 @@
 {
   "name": "cli-resize",
-  "version": "1.0.0",
-  "description": "Listen for the resize event in a friendly way.",
+  "version": "1.1.0",
+  "description": "Listen for the terminal resize event in a friendly way.",
   "main": "lib/index.js",
   "directories": {
     "test": "test"
@@ -9,8 +9,8 @@
   "scripts": {
     "test": "node test"
   },
-  "author": "Ionică Bizău <bizauionica@gmail.com>",
-  "license": "MIT",
+  "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
+  "license": "KINDLY",
   "keywords": [
     "cli",
     "handlers"
