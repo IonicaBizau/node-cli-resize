@@ -1,6 +1,6 @@
-# cli-resize [![Support this project][donate-now]][paypal-donations]
+# cli-resize [![PayPal](https://img.shields.io/badge/%24-paypal-f39c12.svg)][paypal-donations] [![Version](https://img.shields.io/npm/v/cli-resize.svg)](https://www.npmjs.com/package/cli-resize) [![Downloads](https://img.shields.io/npm/dt/cli-resize.svg)](https://www.npmjs.com/package/cli-resize) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
 
-Listen for the terminal resize event in a friendly way.
+> Listen for the terminal resize event in a friendly way.
 
 ## Installation
 

@@ -1,6 +1,6 @@
 {
   "name": "cli-resize",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Listen for the terminal resize event in a friendly way.",
   "main": "lib/index.js",
   "directories": {
