@@ -1,6 +1,6 @@
 {
   "name": "cli-resize",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "Listen for the terminal resize event in a friendly way.",
   "main": "lib/index.js",
   "directories": {
@@ -22,5 +22,16 @@
   "bugs": {
     "url": "https://github.com/IonicaBizau/node-cli-resize/issues"
   },
-  "homepage": "https://github.com/IonicaBizau/node-cli-resize"
+  "homepage": "https://github.com/IonicaBizau/node-cli-resize",
+  "files": [
+    "bin/",
+    "app/",
+    "lib/",
+    "dist/",
+    "src/",
+    "resources/",
+    "menu/",
+    "cli.js",
+    "index.js"
+  ]
 }
