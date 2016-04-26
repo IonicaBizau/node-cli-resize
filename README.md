@@ -1,14 +1,18 @@
+
 # cli-resize [![PayPal](https://img.shields.io/badge/%24-paypal-f39c12.svg)][paypal-donations] [![Version](https://img.shields.io/npm/v/cli-resize.svg)](https://www.npmjs.com/package/cli-resize) [![Downloads](https://img.shields.io/npm/dt/cli-resize.svg)](https://www.npmjs.com/package/cli-resize) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
 
 > Listen for the terminal resize event in a friendly way.
 
-## Installation
+## :cloud: Installation
 
 ```sh
 $ npm i --save cli-resize
 ```
 
-## Example
+
+## :clipboard: Example
+
+
 
 ```js
 // Dependencies
@@ -32,7 +36,8 @@ setTimeout(function() {
 }, 10000);
 ```
 
-## Documentation
+## :memo: Documentation
+
 
 ### `CliResize(callback)`
 Creates a new instance of `CliResize`
@@ -55,15 +60,18 @@ Deattaches the callback from the functions list.
 #### Return
 - **Object** The `CliResize` instance.
 
-## How to contribute
+
+
+## :yum: How to contribute
 Have an idea? Found a bug? See [how to contribute][contributing].
 
-## Where is this library used?
+## :dizzy: Where is this library used?
 If you are using this library in one of your projects, add it in this list. :sparkles:
 
- - [`share-term`](https://github.com/Share-Term/share-term#readme)
 
-## License
+ - [`share-term`](https://github.com/Share-Term/share-term#readme)—Share the terminal with your friends.
+
+## :scroll: License
 
 [MIT][license] © [Ionică Bizău][website]
 
