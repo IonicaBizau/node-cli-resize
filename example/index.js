@@ -1,17 +1,12 @@
-// Dependencies
-var CliResize = require("../lib");
+"use strict";
+
+const cliResize = require("../lib");
 
 // Listen for resize
-var inst = new CliResize(function (err, size) {
+cliResize(size => {
     console.log(size);
 });
 console.log("Resize the terminal.");
-
-// Deattach the listener
-setTimeout(function() {
-    inst.off();
-    console.log("Deattached the listener.");
-}, 3000);
 
 // A hack to keep the process opened for 10sec
 setTimeout(function() {

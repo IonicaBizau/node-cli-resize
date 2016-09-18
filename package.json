@@ -34,5 +34,8 @@
     "scripts/",
     "cli.js",
     "index.js"
-  ]
+  ],
+  "dependencies": {
+    "cli-size": "^1.0.0"
+  }
 }
