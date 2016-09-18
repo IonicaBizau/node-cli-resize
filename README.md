@@ -17,20 +17,13 @@ $ npm i --save cli-resize
 
 
 ```js
-// Dependencies
-var CliResize = require("cli-resize");
+const cliResize = require("cli-resize");
 
 // Listen for resize
-var inst = new CliResize(function (err, size) {
+cliResize(size => {
     console.log(size);
 });
 console.log("Resize the terminal.");
-
-// Deattach the listener
-setTimeout(function() {
-    inst.off();
-    console.log("Deattached the listener.");
-}, 3000);
 
 // A hack to keep the process opened for 10sec
 setTimeout(function() {
@@ -41,37 +34,18 @@ setTimeout(function() {
 ## :memo: Documentation
 
 
-### `CliResize(callback)`
-Creates a new instance of `CliResize`
+### `CliResize(fn)`
+cliResize
+Add a new resize event listener.
 
 #### Params
-- **Function** `callback`: The callback function which is called when the terminal is resized.
-
-#### Return
-- **Object** The `CliResize` instance.
-
-### `size()`
-Gets the terminal size.
-
-#### Return
-- **Object** An object containing the `width` and `height` values.
-
-### `off()`
-Deattaches the callback from the functions list.
-
-#### Return
-- **Object** The `CliResize` instance.
+- **Function** `fn`: The callback function which is called when the terminal is resized.
 
 
 
 ## :yum: How to contribute
 Have an idea? Found a bug? See [how to contribute][contributing].
 
-## :dizzy: Where is this library used?
-If you are using this library in one of your projects, add it in this list. :sparkles:
-
-
- - [`share-term`](https://github.com/Share-Term/share-term#readme)—Share the terminal with your friends.
 
 ## :scroll: License
 
