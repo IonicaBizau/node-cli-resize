@@ -1,6 +1,6 @@
 {
   "name": "cli-resize",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "Listen for the terminal resize event in a friendly way.",
   "main": "lib/index.js",
   "directories": {
@@ -9,7 +9,7 @@
   "scripts": {
     "test": "node test"
   },
-  "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
+  "author": "Ionică Bizău <bizauionica@gmail.com> (https://ionicabizau.net)",
   "license": "MIT",
   "keywords": [
     "cli",
@@ -27,12 +27,11 @@
     "bin/",
     "app/",
     "lib/",
-    "build/",
     "dist/",
     "src/",
+    "scripts/",
     "resources/",
     "menu/",
-    "scripts/",
     "cli.js",
     "index.js"
   ],
