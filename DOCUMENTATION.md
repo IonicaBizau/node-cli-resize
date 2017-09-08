@@ -7,5 +7,6 @@ cliResize
 Add a new resize event listener.
 
 #### Params
+
 - **Function** `fn`: The callback function which is called when the terminal is resized.
 
