@@ -10,3 +10,6 @@ Add a new resize event listener.
 
 - **Function** `fn`: The callback function which is called when the terminal is resized.
 
+#### Return
+- **Function** A function that disables the resize listener.
+

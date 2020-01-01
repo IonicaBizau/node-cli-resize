@@ -3,9 +3,7 @@
 
 # cli-resize
 
- [![Support me on Patreon][badge_patreon]][patreon] [![Buy me a book][badge_amazon]][amazon] [![PayPal][badge_paypal_donate]][paypal-donations] [![Ask me anything](https://img.shields.io/badge/ask%20me-anything-1abc9c.svg)](https://github.com/IonicaBizau/ama) [![Version](https://img.shields.io/npm/v/cli-resize.svg)](https://www.npmjs.com/package/cli-resize) [![Downloads](https://img.shields.io/npm/dt/cli-resize.svg)](https://www.npmjs.com/package/cli-resize) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
-
-<a href="https://www.buymeacoffee.com/H96WwChMy" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/yellow_img.png" alt="Buy Me A Coffee"></a>
+ [![Support me on Patreon][badge_patreon]][patreon] [![Buy me a book][badge_amazon]][amazon] [![PayPal][badge_paypal_donate]][paypal-donations] [![Ask me anything](https://img.shields.io/badge/ask%20me-anything-1abc9c.svg)](https://github.com/IonicaBizau/ama) [![Version](https://img.shields.io/npm/v/cli-resize.svg)](https://www.npmjs.com/package/cli-resize) [![Downloads](https://img.shields.io/npm/dt/cli-resize.svg)](https://www.npmjs.com/package/cli-resize)
 
 > Listen for the terminal resize event in a friendly way.
 
@@ -41,6 +39,8 @@ setTimeout(function() {
 
 
 
+
+
 ## :question: Get Help
 
 There are few ways to get help:
@@ -49,6 +49,7 @@ There are few ways to get help:
  2. For bug reports and feature requests, open issues. :bug:
 
  3. For direct and quick help, you can [use Codementor](https://www.codementor.io/johnnyb). :rocket:
+
 
 
 
@@ -62,6 +63,9 @@ Add a new resize event listener.
 #### Params
 
 - **Function** `fn`: The callback function which is called when the terminal is resized.
+
+#### Return
+- **Function** A function that disables the resize listener.
 
 
 
@@ -89,14 +93,6 @@ However, if you get some profit from this or just want to encourage me to contin
 Thanks! :heart:
 
 
-## :dizzy: Where is this library used?
-If you are using this library in one of your projects, add it in this list. :sparkles:
-
-
- - [`3abn`](https://github.com/IonicaBizau/3abn#readme)—A 3ABN radio client in the terminal.
- - [`aircat-web`](https://npmjs.com/package/aircat-web) (by Tau)—A web browser to view ATML documents
- - [`cli-update`](https://github.com/IonicaBizau/node-cli-update)—A library to update stdout output.
- - [`share-term`](https://github.com/Share-Term/share-term#readme)—Share the terminal with your friends.
 
 ## :scroll: License
 
