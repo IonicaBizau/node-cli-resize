@@ -1,6 +1,6 @@
 {
   "name": "cli-resize",
-  "version": "2.0.8",
+  "version": "2.0.9",
   "description": "Listen for the terminal resize event in a friendly way.",
   "main": "lib/index.js",
   "directories": {
@@ -34,6 +34,8 @@
     "menu/",
     "cli.js",
     "index.js",
+    "index.d.ts",
+    "package-lock.json",
     "bloggify.js",
     "bloggify.json",
     "bloggify/"

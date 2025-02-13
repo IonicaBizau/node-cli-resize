@@ -19,7 +19,7 @@
 
 # cli-resize
 
- [![Support me on Patreon][badge_patreon]][patreon] [![Buy me a book][badge_amazon]][amazon] [![PayPal][badge_paypal_donate]][paypal-donations] [![Ask me anything](https://img.shields.io/badge/ask%20me-anything-1abc9c.svg)](https://github.com/IonicaBizau/ama) [![Version](https://img.shields.io/npm/v/cli-resize.svg)](https://www.npmjs.com/package/cli-resize) [![Downloads](https://img.shields.io/npm/dt/cli-resize.svg)](https://www.npmjs.com/package/cli-resize) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
+ [![Support me on Patreon][badge_patreon]][patreon] [![Buy me a book][badge_amazon]][amazon] [![PayPal][badge_paypal_donate]][paypal-donations] [![Ask me anything](https://img.shields.io/badge/ask%20me-anything-1abc9c.svg)](https://github.com/IonicaBizau/ama) [![Version](https://img.shields.io/npm/v/cli-resize.svg)](https://www.npmjs.com/package/cli-resize) [![Downloads](https://img.shields.io/npm/dt/cli-resize.svg)](https://www.npmjs.com/package/cli-resize) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/@johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
 
 <a href="https://www.buymeacoffee.com/H96WwChMy" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/yellow_img.png" alt="Buy Me A Coffee"></a>
 
@@ -98,6 +98,7 @@ setTimeout(function() {
 
 
 
+
 ## :question: Get Help
 
 There are few ways to get help:
@@ -107,6 +108,8 @@ There are few ways to get help:
  1. Please [post questions on Stack Overflow](https://stackoverflow.com/questions/ask). You can open issues with questions, as long you add a link to your Stack Overflow question.
  2. For bug reports and feature requests, open issues. :bug:
  3. For direct and quick help, you can [use Codementor](https://www.codementor.io/johnnyb). :rocket:
+
+
 
 
 
@@ -179,12 +182,14 @@ Thanks! :heart:
 ## :dizzy: Where is this library used?
 If you are using this library in one of your projects, add it in this list. :sparkles:
 
+ - `3abn`
+ - `@reliverse/prompts`
+ - `@ultimaup/cli`
+ - `aircat-web`
  - `cli-update`
  - `share-term`
- - `aircat-web`
  - `supreme-web`
- - `@ultimaup/cli`
- - `3abn`
+ - `timezonenpmpackage`
 
 
 
